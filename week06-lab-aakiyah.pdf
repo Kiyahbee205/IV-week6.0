@@ -1,0 +1,1154 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1136
+>>
+stream
+0.200025 w
+0 G
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -5. re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.22 0.741 0.973 rg
+48. 740. Td
+(HARBORTECH SOLUTIONS) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 726. Td
+(Cloud Operations Support Practice) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 672. Td
+(IT 4560 · Week 06 Lab Submission) Tj
+ET
+BT
+/F2 24 Tf
+27.5999999999999979 TL
+0.886 0.941 0.984 rg
+48. 634. Td
+(Do We Need a Server? Compute Model) Tj
+T* (Recommendation) Tj
+ET
+0.22 0.74 0.97 RG
+0.5 w
+48. 592. m
+564. 592. l
+S
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.886 0.941 0.984 rg
+48. 564. Td
+(Aakiyah) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 546. Td
+(Student ID: Smith) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.576 0.773 0.82 rg
+48. 530. Td
+(Tuesday, October 13, 2026) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 40. Td
+(Governors State University · IT 4560: Introduction to Virtualization) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.29 0.439 0.565 rg
+48. 26. Td
+(HarborTech Operations Playbook · Submitted via Blackboard Ultra) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 6686
+>>
+stream
+0.5 w
+0.22 0.74 0.97 RG
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -3. re
+f
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.22 0.741 0.973 rg
+48. 733. Td
+(SECTION 2 | EVIDENCE REVIEW AND ANALYSIS) Tj
+ET
+0.22 0.74 0.97 RG
+0.4 w
+48. 719. m
+564. 719. l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 702. Td
+(Response 1 | Daily report: compute model and workload evidence) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 685. Td
+(I would evaluate AWS Lambda first for the daily reporting task because it only runs once each morning and then stops. One) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 670.5 Td
+(piece of evidence is that the task completes quickly and does not need to run continuously. Another is that it keeps no local) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 656. Td
+(state between runs, which makes it a good candidate for event-driven serverless computing. Lambda could run the report) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 641.5 Td
+(when scheduled without requiring an EC2 instance to stay running all day. This would reduce server-management) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 627. Td
+(responsibilities and potentially lower costs. HarborTech would still be responsible for maintaining the code, testing the) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 612.5 Td
+(report, managing permissions, and monitoring for errors.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 581. Td
+(Response 2 | API Gateway and Lambda: request flow and responsibilities) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 564. Td
+(AWS Lambda and API Gateway could work together to support the small REST API. API Gateway would receive incoming) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 549.5 Td
+(HTTP requests and route them to the appropriate Lambda function. Lambda would execute the application code and return) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 535. Td
+(a response without HarborTech having to manage the underlying servers. This design could be useful because the API) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 520.5 Td
+(receives intermittent requests instead of requiring constant server activity. However, HarborTech would still be responsible) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 506. Td
+(for application logic, validating input, handling errors, securing access, and maintaining any connections to databases or) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 491.5 Td
+(other services. The team would also need to test performance and monitor the API to make sure it meets its requirements.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 460. Td
+(Response 3 | Continuously running workload: VM, container, or Lambda) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 443. Td
+(Lambda would be a weaker choice for this application because it runs continuously and requires a custom) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 428.5 Td
+(operating-system package and host-level troubleshooting access. Lambda limits control over the underlying operating) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 414. Td
+(system and is designed for function-based execution rather than managing a persistent host environment. A virtual) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 399.5 Td
+(machine may be more appropriate if the application needs direct operating-system access, custom system configurations,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 385. Td
+(or extensive host-level troubleshooting. A container could also work if the application can run with its dependencies) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 370.5 Td
+(packaged together and does not require control of the host operating system. Before choosing between a VM and a) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 356. Td
+(container, I would gather more evidence about the required operating-system package, whether the application needs a) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 341.5 Td
+(persistent process, how much host access is necessary, the expected workload, and the team's container-management) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 327. Td
+(capabilities. This evidence would help determine which option provides the needed control without adding unnecessary) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 312.5 Td
+(operational complexity.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.22 0.741 0.973 rg
+48. 274. Td
+(SECTION 3 | COMPUTE MODEL RECOMMENDATION) Tj
+ET
+0.22 0.74 0.97 RG
+0.4 w
+48. 260. m
+564. 260. l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 243. Td
+(HarborTech internal recommendation | TKT-2026-0006) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 226. Td
+(# HarborTech Compute Model Recommendation) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 211.5 Td
+(Ticket:TKT-2026-0006  ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 197. Td
+(Prepared by:Junior Cloud Operations Intern  ) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 182.5 Td
+(Subject: Compute Model Evaluation for Reporting Task and REST API) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 153.5 Td
+(1. Current Server-Based Condition) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 139. Td
+(Both workloads currently share one EC2 instance. The reporting task runs once each morning and stops after completing) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 124.5 Td
+(its work, while the small REST API receives intermittent requests throughout the day. The EC2 instance remains lightly) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 110. Td
+(utilized for long periods, but HarborTech and the client still carry operational responsibilities for the guest operating system,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 95.5 Td
+(application runtime, security updates, and troubleshooting. Based on the available evidence, evaluating alternative compute) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 81. Td
+(models could reduce unnecessary server-management work.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 6227
+>>
+stream
+0.4 w
+0.22 0.74 0.97 RG
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -3. re
+f
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 725.5 Td
+(2. Workload Evidence and Recommendations) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 711. Td
+(Workload A: Daily Reporting Task) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 696.5 Td
+(Evidence: The reporting task runs once each morning, completes quickly, does not maintain local state between runs, and) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 682. Td
+(leaves the EC2 instance idle for most of the day.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 667.5 Td
+(Recommendation:Evaluate AWS Lambda as the preferred compute model. Lambda can execute the reporting code on a) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 653. Td
+(schedule without requiring a dedicated EC2 instance to remain running solely for this task.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 638.5 Td
+(Operational responsibility tradeoff:AWS would manage the underlying execution infrastructure, reducing HarborTech's) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 624. Td
+(responsibility for server provisioning and guest operating system maintenance for this workload. HarborTech would still) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 609.5 Td
+(maintain the reporting code, configure the schedule and permissions, validate report accuracy, monitor failures, and) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 595. Td
+(manage access to any required data sources.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 566. Td
+(Workload B: Small REST API) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 537. Td
+(Evidence:The API receives intermittent requests throughout the day, and the shared EC2 instance remains lightly utilized) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 522.5 Td
+(for extended periods.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 493.5 Td
+(Recommendation:Evaluate Amazon API Gateway with AWS Lambda as a serverless architecture. API Gateway could) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 479. Td
+(receive HTTP requests and route them to the appropriate Lambda function, while Lambda executes the application logic) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 464.5 Td
+(and returns responses. This could reduce the need to operate a continuously available application server.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 435.5 Td
+(Operational responsibility tradeoff: AWS would manage the underlying server infrastructure for API Gateway and Lambda.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 421. Td
+(HarborTech would remain responsible for API design, application code, authentication and authorization configuration, input) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 406.5 Td
+(validation, error handling, logging, monitoring, and database or service integrations. The team would also need to verify that) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 392. Td
+(the design meets the API's latency, availability, security, and performance requirements.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 363. Td
+(3. VM and Container Considerations) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 334. Td
+(A virtual machine remains appropriate for workloads that require guest operating system control, custom system-level) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 319.5 Td
+(packages, persistent processes, or host-level troubleshooting. Containers may be appropriate when application) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 305. Td
+(dependencies need consistent packaging and isolation but the workload can share a host operating system kernel.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 276. Td
+(Neither a VM nor a container should be selected automatically simply because the workloads currently run on EC2. The) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 261.5 Td
+(choice should be based on actual operating system requirements, runtime behavior, deployment needs, and the) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 247. Td
+(operational capabilities of the team. For the two workloads in this ticket, serverless is the initial recommendation to) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 232.5 Td
+(evaluate, subject to validation.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 203.5 Td
+(4. Validation Evidence to Collect) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 174.5 Td
+(Before recommending implementation, HarborTech should collect and review the following evidence:) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 145.5 Td
+(- Reporting task:Actual execution duration, schedule requirements, memory and CPU needs, local file dependencies, data) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 131. Td
+(access requirements, and whether the task can run successfully in Lambda's execution environment.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 116.5 Td
+(-REST API: Request volume and traffic patterns, response-time requirements, authentication needs, concurrent request) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 102. Td
+(levels, payload sizes, database connections, and availability requirements.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 87.5 Td
+(-Current EC2 environment: Instance utilization, application and operating system dependencies, current hosting costs,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 73. Td
+(existing monitoring data, and whether other services depend on the shared instance.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5574
+>>
+stream
+0.4 w
+0.22 0.74 0.97 RG
+0.06 0.12 0.18 rg
+0. 792. 612. -792. re
+f
+0.22 0.74 0.97 rg
+0. 792. 612. -3. re
+f
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 740. Td
+(-Migration testing:Successful report execution, API functional and load tests, permission checks, error handling, logging,) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 725.5 Td
+(and rollback procedures in an approved test environment.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 711. Td
+(-Cost and service limits: Estimated costs for the proposed services, expected invocation volume, execution duration, data) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 696.5 Td
+(transfer, API Gateway usage, and any applicable service quotas.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 667.5 Td
+(The current evidence supports evaluating serverless options, but it does not establish that either migration has been tested) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 653. Td
+(or approved.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 624. Td
+(5. Assumptions and Required Escalation) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 595. Td
+(The recommendation assumes that the reporting task can execute within Lambda's runtime and resource limits and that the) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 580.5 Td
+(API does not require a persistent process or unsupported host-level access. These assumptions must be validated before) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 566. Td
+(selecting the final architecture.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 537. Td
+(The following decisions should be escalated to the authorized cloud architect or project owner before implementation:) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 508. Td
+(1. Approval to migrate either workload away from the shared EC2 instance.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 493.5 Td
+(2. Confirmation of the target architecture, including Lambda, API Gateway, and any required supporting services.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 479. Td
+(3. Approval of IAM permissions, security controls, network connectivity, and access to data sources.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 464.5 Td
+(4. Confirmation of cost estimates, performance requirements, service quotas, and rollback plans.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 450. Td
+(5. Approval of the migration schedule and any changes that could affect production availability.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 421. Td
+(As a junior cloud operations intern, I would document the findings, gather the required evidence, and submit the) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 406.5 Td
+(recommendation for review rather than making unapproved infrastructure or permission changes.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 377.5 Td
+(6. Final Recommendation) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 363. Td
+(HarborTech should evaluate AWS Lambda first for the daily reporting task and evaluate API Gateway with Lambda for the) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 348.5 Td
+(intermittent REST API. These options could reduce the operational burden associated with maintaining a shared EC2) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 334. Td
+(instance for workloads that do not appear to require continuous server operation. A VM or container should remain an) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 319.5 Td
+(option if validation identifies persistent execution, custom operating system, or host-access requirements that make) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 305. Td
+(serverless unsuitable.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 276. Td
+(The final decision should be based on measured workload behavior, successful testing, security and cost reviews, and) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 261.5 Td
+(approval from the authorized decision-maker. No production migration should occur until these checks and approvals are) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 247. Td
+(complete.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.22 0.741 0.973 rg
+48. 208.5 Td
+(SECTION 4 | HARBORTECH OPERATIONS PLAYBOOK) Tj
+ET
+0.22 0.74 0.97 RG
+0.4 w
+48. 194.5 m
+564. 194.5 l
+S
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.682 0.769 0.835 rg
+48. 177.5 Td
+(Direct GitHub URL | week06-containers-serverless.md) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.886 0.941 0.984 rg
+48. 160.5 Td
+(https://github.com/Kiyahbee205/IV-week6.0/upload/main) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.22 0.741 0.973 rg
+48. 129. Td
+(PLAYBOOK CONFIRMATION) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.886 0.941 0.984 rg
+48. 114. Td
+(Aakiyah confirms that week06-containers-serverless.md has been published to a public GitHub repository and is accessible at the URL) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.886 0.941 0.984 rg
+48. 101. Td
+(above.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.682 0.769 0.835 rg
+48. 78. Td
+(HarborTech Operations Playbook | Week 6 | Submit PDF to Blackboard Ultra) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+/F7 17 0 R
+/F8 18 0 R
+/F9 19 0 R
+/F10 20 0 R
+/F11 21 0 R
+/F12 22 0 R
+/F13 23 0 R
+/F14 24 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+25 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20261013204847-05'00')
+>>
+endobj
+26 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000020268 00000 n 
+0000022108 00000 n 
+0000000015 00000 n 
+0000000120 00000 n 
+0000001308 00000 n 
+0000001413 00000 n 
+0000008151 00000 n 
+0000008256 00000 n 
+0000014535 00000 n 
+0000014641 00000 n 
+0000020343 00000 n 
+0000020469 00000 n 
+0000020600 00000 n 
+0000020734 00000 n 
+0000020872 00000 n 
+0000020996 00000 n 
+0000021125 00000 n 
+0000021257 00000 n 
+0000021393 00000 n 
+0000021521 00000 n 
+0000021648 00000 n 
+0000021777 00000 n 
+0000021910 00000 n 
+0000022012 00000 n 
+0000022361 00000 n 
+0000022447 00000 n 
+trailer
+<<
+/Size 27
+/Root 26 0 R
+/Info 25 0 R
+/ID [ <4FAE55D6004227D502618644C4571EAE> <4FAE55D6004227D502618644C4571EAE> ]
+>>
+startxref
+22551
+%%EOF
